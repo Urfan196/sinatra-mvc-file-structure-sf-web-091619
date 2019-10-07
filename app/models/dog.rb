@@ -1,4 +1,5 @@
 class Dog
+
 attr_accessor :name, :breed, :age
 
 @@all = []
@@ -10,7 +11,7 @@ attr_accessor :name, :breed, :age
       @@all << self
     end
 
-    def sel.all
+    def self.all
       @@all
     end
 
